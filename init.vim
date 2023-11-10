@@ -23,6 +23,9 @@ call plug#end()
 " Escape remap
 inoremap jj <esc>
 
+
+
+let mapleader = " " 
 " remove training wheels
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -33,6 +36,11 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+nnoremap <leader>pv :Vex<CR>
+
+" custom remaps/ per plugin
+" fzf
+nnoremap <leader>ff :Files<CR>
 
 
 
